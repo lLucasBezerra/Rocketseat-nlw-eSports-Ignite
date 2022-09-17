@@ -7,9 +7,12 @@ module.exports = {
   theme: {
     extend: {
       // para adicionar uma "classe" a mais no tailwind, pode fazer  isso aqui
+      fontFamily:{
+       sans:["Inter","San-serif",],
+      },
       backgroundImage: {
         fundo: "url('/Fundo.png')",
-        "nlw-gradient": "linear-gradient(89.86deg, #9572FC 27%, #43E7AD 42%, #E1D55D 25%)",
+        "nlw-gradient": "linear-gradient(89.86deg, #9572FC 0%, #43E7AD 42%, #E1D55D 100%)",
         "game-gradient": "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 67.08%)",
       },
     },
